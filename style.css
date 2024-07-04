@@ -29,9 +29,9 @@ body{
     transform: translate(-50%, -50%);
 }
 
-button{
+.botao{
     color: white;
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(0, 0, 0, 0.5);
     border-style: none;
     width: 100px;
     height: 100px;
@@ -45,12 +45,23 @@ button{
     background-color: rgb(255, 247, 240);
 }
 
-input{
+p{
     margin: 10px;
     padding: 10px 25px;
+    font-size: 40px;
 }
-#botao-igual{
-    height: 106px;
+#operacao{
+    background-color: rgb(236, 98, 13);
+}
+#operacao-cinza{
+    background-color: grey;
+}
+#operacao-igual{
+    background-color:rgb(236, 98, 13);
+    height: 206px;
+}
+#zero{
+    width: 215px;
 }
 
 .name{
@@ -64,4 +75,6 @@ input{
     width: 430px;
     background-color: white;
     border-radius: 10px;
+    text-align: right;
+    padding: 2px 15px;
 }
